@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 90%;
+    margin: auto;
+}
+.title{
+    background: rgb(235, 201, 201);
+    height: 80px;
+    border-radius: 5px;
+}
+.title h1{
+    color: rgb(214, 87, 87);
+    padding: 22px 0 0 15px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background: black;
+    border-radius: 5px;
+    list-style: none;
+    padding-left: 15px;
+}
+.menu ul li{
+    padding: 0 23px;
+}
+.menu ul a{
+    text-decoration: none;
+    color: gray;
+}
+.menu ul li:nth-child(1){
+    padding-left: 0px;
+    font-size: 20px;
+}
+.menu ul a:hover{
+    color: white;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}

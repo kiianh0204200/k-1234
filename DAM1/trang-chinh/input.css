@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 90%;
+    margin: auto;
+}
+.title{
+    background: rgb(187, 220, 187);
+    height: 80px;
+    border-radius: 5px;
+}
+.title h1{
+    color: green;
+    padding: 22px 0 0 15px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background: black;
+    border-radius: 5px;
+    list-style: none;
+    padding-left: 15px;
+}
+.menu ul li{
+    padding: 0 23px;
+}
+.menu ul a{
+    text-decoration: none;
+    color: gray;
+}
+.menu ul li:nth-child(1){
+    padding-left: 0px;
+}
+.menu ul a:hover{
+    color: white;
+}
+.slide img{
+    width: 805px;
+    height: 400px;
+    border-radius: 4px;
+}
+.nut{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: 350px;
+    left: 100px;
+    cursor: pointer;
+}
+.nut1{
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    top: 350px;
+    left: 820px;
+    cursor: pointer;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.box-left{
+    width: 805px;
+}
+.introduc{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.introduc1{
+    border: 1.5px solid rgb(240, 237, 237);
+    width: 230px;
+    border-radius: 4px;
+    box-shadow: 2px 2px rgb(214, 212, 212);
+}
+.introduc1 img{
+    object-fit: cover;
+    width: 170px;
+    height: 210px;
+    padding: 20px 0 0 30px;
+}
+.introduc1 strong{
+    display: block;
+    padding: 10px 0 0 20px;
+    font-size: 30px;
+}
+.introduc1 p{
+    padding-left: 20px;
+    font-size: 16px;
+}
+.box-right{
+    width: 270px;
+    margin-right: 20px;
+}
+.block1{
+    border: 1.5px solid rgb(240, 237, 237);
+    padding: 15px 12px 10px 12px ;
+    border-radius: 0 0 4px 4px;
+}
+.account strong{
+    display: block;
+    border-bottom: 1.5px solid rgb(240, 237, 237);
+    background: rgb(240, 237, 237);
+    height: 30px;
+    padding: 12px 0 28px 12px;
+    border-radius: 4px 4px 0 0;
+}
+.block1 input{
+    padding: 5px 10px;
+    border: 1.5px solid rgb(240, 237, 237);
+    border-radius: 4px;
+}
+#dn{
+    background: white;
+    border: 1.5px solid rgb(227, 226, 226);
+    padding: 8px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#dn:hover{
+    background: rgb(210, 210, 210);
+}
+.block1 ul{
+    padding-left: 15px;
+}
+.block1 a{
+    text-decoration: none;
+}
+.block1 a:hover{
+    text-decoration: underline;
+}
+.block2 ul{
+    list-style: none;
+    border: 1.5px solid rgb(240, 237, 237);
+    padding: 0;
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 0;
+}
+.block2 ul li{
+    border-bottom: 1.5px solid rgb(240, 237, 237);
+    padding: 13px 20px;
+}
+.block2 ul a{
+    text-decoration: none;
+    color: black;
+}
+.block2 ul li:nth-child(1){
+    background: rgb(240, 237, 237);
+    border-radius: 4px 4px 0 0;
+    font-weight: bold;
+}
+.block2 li:hover{
+    background: rgb(214, 212, 212);
+    border-radius: 3px;
+}
+.block2 p{
+    display: block;
+    border-bottom: 1.5px solid rgb(240, 237, 237);
+    background: rgb(240, 237, 237);
+    padding: 12px 0 12px 12px;
+    border-radius: 0 0 4px 4px;
+    margin: 0;
+}
+.block2 input{
+    border: 1.5px solid rgb(214, 212, 212);
+    padding: 5px 70px 5px 10px;
+    border-radius: 4px;
+}
+.favorite strong{
+    display: block;
+    border-bottom: 1.5px solid rgb(240, 237, 237);
+    background: rgb(240, 237, 237);
+    padding: 12px 0 12px 12px;
+    border-radius: 4px 4px 0 0;
+}
+.favorite{
+    border: 1.5px solid rgb(240, 237, 237);
+    margin-top: 20px;
+    border-radius: 4px;
+    padding-bottom: 5px;
+}
+.image{
+    display: flex;
+    align-items: center;
+    padding: 8px 20px 8px 20px;
+}
+.image img{
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid rgb(214, 212, 212);
+    border-radius: 4px;
+    margin-right: 20px;
+}
+.image a{
+    text-decoration: none;
+}
+.image a:hover{
+    text-decoration: underline;
+}
+footer{
+    background: rgb(187, 220, 187);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 4px;
+}

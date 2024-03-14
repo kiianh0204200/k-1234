@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.main{
+    width: 90%;
+    margin: auto;
+}
+.title{
+    background: rgb(235, 201, 201);
+    height: 80px;
+    border-radius: 5px;
+}
+.title h1{
+    color: rgb(214, 87, 87);
+    padding: 22px 0 0 15px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background: black;
+    border-radius: 5px;
+    list-style: none;
+    padding-left: 15px;
+}
+.menu ul li{
+    padding: 0 23px;
+}
+.menu ul a{
+    text-decoration: none;
+    color: gray;
+}
+.menu ul li:nth-child(1){
+    padding-left: 0px;
+    font-size: 20px;
+}
+.menu ul a:hover{
+    color: white;
+}
+.add{
+    background: rgb(194, 225, 194);
+    height: 50px;
+    border-radius: 3px;
+}
+.add p{
+    color: rgb(20, 92, 20);
+    font-size: 20px;
+    padding: 15px 0 0 15px ;
+}
+.frmcontent{
+    margin-top: 20px;
+}
+.frmcontent input[type="text"]{
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(196, 192, 192);
+}
+.frmcontent input[type="submit"],
+.frmcontent input[type="reset"],
+.frmcontent input[type="button"]{
+    padding: 8px 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(196, 192, 192);
+}
+.frmcontent input[type="submit"]:hover,
+.frmcontent input[type="reset"]:hover,
+.frmcontent input[type="button"]:hover{
+    background: rgb(215, 213, 213);
+}
+.m10{
+    padding: 20px 0;
+}
+.m10 table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.m10 table th:nth-child(1){
+    width: 4%;
+    padding: 20px;
+    background: rgb(54, 165, 54)
+}
+.m10 table th:nth-child(2){
+    width: 30%;
+    background: rgb(54, 165, 54);
+}
+.m10 table th:nth-child(3){
+    width: 46%;
+    background: rgb(54, 165, 54);
+}
+.m10 table th:nth-child(4){
+    width: 20%;
+    background: rgb(54, 165, 54);
+}
+.m10 table td{
+    padding: 5px 20px;
+    border: 1px solid green;
+}
